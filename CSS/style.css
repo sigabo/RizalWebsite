@@ -1,0 +1,57 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Header Styling */
+header {
+    padding: 2rem;
+    background: #007bff;
+    color: #fff;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+/* Main Content */
+main {
+    padding: 2rem;
+    margin: auto;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Specific Image Sizes for Each Page */
+
+/* Home Image */
+.home-image {
+    width: 70%;  /* Adjusting width for better visibility */
+    max-width: 600px; /* Make sure it's not too big */
+    margin:
